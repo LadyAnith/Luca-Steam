@@ -9,8 +9,13 @@ package model;
 
 public enum Genre {
 	
+<<<<<<< HEAD
+	Sports(1, "Sports"), Platform(2, "Platform"), Racing(3, "Racing"), RolePlaying(4, "Role-Playing"), Puzzle(5, "Puzzle"), Misc(6, "Misc"),
+	Shooter(7, "Shooter"), Action(8, "Action"), Fighting(9, "Fighting"), Adventure(10, "Adventure"), Simulation(11, "Simulation"), Strategy(12, "Strategy");
+=======
 	SP(1, "Sports"), PL(2, "Platform"), RC(3, "Racing"), RP(4, "Role-Playing"), P(5, "Puzzle"), M(6, "Misc"),
 	SH(7, "Shooter"), A(8, "Action"), F(9, "Fighting"), AD(10, "Adventure"), SI(11, "Simulation"), S(12, "Strategy");
+>>>>>>> b914df5508ac935ecfde5d99d00e24fa9bb4b101
 
 
 	// ----------------------
