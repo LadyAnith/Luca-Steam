@@ -7,18 +7,32 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.apache.log4j.Logger;
 
+import model.Game;
+
 /**
- * Clase encargada de leer un fichero CSV
- * @author alumno
- *
+ * Nombre Clase: ReadCSV.java 
+ * Descripcion: Clase encargada de leer un fichero CSV. 
+ * 
+ * @since 15/06/2021 
+ * @version 1.0
+ * @author Ana Mª Ramírez
  */
 public class ReadCSV {
+	/**
+	 * Atributo estático para utilizar el Logger
+	 */
 	private static final Logger LOGGER = Logger.getLogger(ReadCSV.class);
-
+	/**
+	 * Atributo donde guardo el CSV
+	 */
 	private static String NOMBRE_CSV = "vgsales.csv";
+	/**
+	 * Atributo donde indico el delimitador del contenido del fichero
+	 */
 	private static String DELIMITADOR_CSV = ";";
 
 	/**
@@ -46,5 +60,4 @@ public class ReadCSV {
 
 		return resultado;
 	}
-
 }
