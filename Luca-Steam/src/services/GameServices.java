@@ -16,11 +16,7 @@ public class GameServices<IDataJuegos> implements IGameServices {
 	
 	public boolean registerGame() {
 		Game j = new Game();
-<<<<<<< HEAD
 		j.createGame();
-=======
-		//TODO: j.createGame(//TODO: Meter parámetros);
->>>>>>> b914df5508ac935ecfde5d99d00e24fa9bb4b101
 		return this.registerGame();
 	}
 	

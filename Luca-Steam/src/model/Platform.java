@@ -12,13 +12,9 @@ public enum Platform {
 	PS3(6, "Play Station 3"), PS2(7, "Play Station 2"), SNES(8, "Nitendo Super Nes"), GBA(9, "Game Boy Advance"),
 	PS4(10, "Play Station 4"), N64(11, "Nitendo 64"), XB(12, "XBOX"), PSP(13, "Play Station Portable"),
 	PS(14, "Play Station"), XOne(15, "XBOX One"), GC(16, "Nintendo Game Cube"), WiiU(17, "Nintendo Wii U"),
-<<<<<<< HEAD
 	TRESDS(18, "Nintendo 3DS"), PC(19, "Juegos PC"), A2600(20, "Atari 2600"), TRESDO(21,"3DO"), DC(22, "DC"),
 	GEN(23, "GEN"), GG(24, "GG"), NG(25, "NG"), PCFX(26, "PCFX"), PSV(27, "PSV"), SAT(28, "SAT"), SCD(29, "SCD"),
 	TG16(30, "TG16"), WS(31, "WS");
-=======
-	TRESDS(18, "Nintendo 3DS"), PC(19, "Juegos PC"), A2600(20, "Atari 2600");
->>>>>>> b914df5508ac935ecfde5d99d00e24fa9bb4b101
 
 	// ----------------------
 	// Atributos
