@@ -1,16 +1,11 @@
 package test;
 
-
-
-import java.util.stream.Collectors;
-
 import org.junit.jupiter.api.Test;
 
 import data.GameData;
 import model.Game;
 import model.Genre;
 import model.Platform;
-
 
 /**
  * Nombre Clase: GameDataTest.java 
@@ -24,13 +19,12 @@ class GameDataTest extends junit.framework.TestCase {
 	/**
 	 * Objetos necesarios para realizar las pruebas
 	 */
-	Game game = new Game(16599, "Ori", Platform.N64, 2019, Genre.RP, "Nintendo", 5000, 12000, 20000, 8000, 4000);
+	Game game = new Game(16599, "Ori", Platform.PC, 2019, Genre.Platform, "Nintendo", 5000, 12000, 20000, 8000, 4000);
 	GameData gameData = new GameData();
 
-	Game game1 = new Game(16600, "Tetris", Platform.PC, 2019, Genre.RP, "Nintendo", 5000, 12000, 20000, 8000, 4000);
-	Game game2 = new Game(16599, "The Witcher", Platform.N64, 2020, Genre.RP, "Playstation", 5000, 12000, 20000, 8000,
+	Game game1 = new Game(16600, "Tetris", Platform.PC, 2019, Genre.Puzzle, "Nintendo", 5000, 12000, 20000, 8000, 4000);
+	Game game2 = new Game(16599, "The Witcher", Platform.PC, 2020, Genre.RolePlaying, "Playstation", 5000, 12000, 20000, 8000,
 			4000);
-
 
 	/**
 	 * Introduzco datos en el HasMap de la clase Gamedata
@@ -38,16 +32,13 @@ class GameDataTest extends junit.framework.TestCase {
 	{
 		gameData.getGame().put(1, game1);
 		gameData.getGame().put(2, game2);
-		gameData.getGame().put(3, game);
-		gameData.getGame().put(4, game2);
 	}
-	
+
 	/**
 	 * Test encargado de comprobar si el método registra un juego
 	 */
 	@Test
 	public void test1ShouldRegistGame() {
-		System.out.println("EJECUTANDO TEST: test1ShouldRegistGame()");
 		assertNotNull(game);
 		boolean expectedResult = true;
 		boolean realResult = gameData.registerGame(45, game);
@@ -59,7 +50,6 @@ class GameDataTest extends junit.framework.TestCase {
 	 */
 	@Test
 	public void test2ShouldNotRegistGameDuplicated() {
-		System.out.println("EJECUTANDO TEST: test2ShouldNotRegistGameDuplicated()");
 		assertNotNull(game);
 		boolean expectedResult = false;
 		boolean realResult = gameData.registerGame(1, game1);
@@ -72,7 +62,6 @@ class GameDataTest extends junit.framework.TestCase {
 	 */
 	@Test
 	public void testShouldNotRegistGameNull() {
-		System.out.println("EJECUTANDO TEST: testShouldNotRegistGameNull()");
 		Game game = null;
 		assertNull(game);
 		boolean expectedResult = false;
@@ -86,7 +75,6 @@ class GameDataTest extends junit.framework.TestCase {
 	 */
 	@Test
 	public void testShouldNotRegistGameIDNegative() {
-		System.out.println("EJECUTANDO TEST: testShouldNotRegistGameIDNegative()");
 		assertNotNull(game);
 		boolean expectedResult = false;
 		boolean realResult = gameData.registerGame(-2057, game);

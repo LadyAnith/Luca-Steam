@@ -1,26 +1,3 @@
 2021-06-15 18:16:28 DEBUG Juego:11 - log de prueba
 2021-06-15 18:16:28 INFO  Juego:12 - log de prueba2
 2021-06-15 18:16:28 ERROR Juego:13 - log de prueba3
-2021-06-16 20:31:05 ERROR GameData:58 - ID No puede ser negativo
-2021-06-16 20:31:30 ERROR GameData:63 - ID existente, no se ha podido agregar el juego
-2021-06-16 20:31:30 ERROR GameData:58 - ID No puede ser negativo
-2021-06-16 20:31:30 ERROR GameData:67 - No hay datos del juego que registrar
-2021-06-16 22:08:59 ERROR GameData:58 - ID No puede ser negativo
-2021-06-16 22:08:59 ERROR GameData:67 - No hay datos del juego que registrar
-2021-06-16 22:09:52 ERROR GameData:58 - ID No puede ser negativo
-2021-06-16 22:09:52 ERROR GameData:67 - No hay datos del juego que registrar
-2021-06-16 22:10:12 ERROR GameData:63 - ID existente, no se ha podido agregar el juego
-2021-06-16 22:10:12 ERROR GameData:58 - ID No puede ser negativo
-2021-06-16 22:10:12 ERROR GameData:67 - No hay datos del juego que registrar
-2021-06-16 23:21:12 ERROR GameData:63 - ID existente, no se ha podido agregar el juego
-2021-06-16 23:21:12 ERROR GameData:58 - ID No puede ser negativo
-2021-06-16 23:21:12 ERROR GameData:67 - No hay datos del juego que registrar
-2021-06-17 01:39:59 ERROR GameData:198 - ID existente, no se ha podido agregar el juego
-2021-06-17 01:39:59 ERROR GameData:193 - ID No puede ser negativo
-2021-06-17 01:39:59 ERROR GameData:202 - No hay datos del juego que registrar
-2021-06-17 01:43:49 ERROR GameData:198 - ID existente, no se ha podido agregar el juego
-2021-06-17 01:43:49 ERROR GameData:193 - ID No puede ser negativo
-2021-06-17 01:43:49 ERROR GameData:202 - No hay datos del juego que registrar
-2021-06-17 01:52:20 ERROR GameData:199 - ID existente, no se ha podido agregar el juego
-2021-06-17 01:52:20 ERROR GameData:194 - ID No puede ser negativo
-2021-06-17 01:52:20 ERROR GameData:203 - No hay datos del juego que registrar

@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
-<<<<<<< HEAD
 
 import org.apache.log4j.Logger;
 
@@ -215,20 +214,3 @@ public class GameData implements IGameData{
 
 
 
-=======
-
-import org.apache.log4j.Logger;
-
-import model.Game;
-import model.Genre;
-import model.Platform;
-import utilities.ReadCSV;
-
-
-public class GameData implements IGameData{
-	private static final Logger LOGGER = Logger.getLogger(GameData.class);
-	
-	
-
-}
->>>>>>> b914df5508ac935ecfde5d99d00e24fa9bb4b101

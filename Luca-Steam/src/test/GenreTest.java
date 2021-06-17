@@ -21,7 +21,7 @@ class GenreTest {
 	public void testgetGenero() {
 
 		int num = 6;
-		Genre generoEsperado = Genre.M;
+		Genre generoEsperado = Genre.Misc;
 		Genre generoReal = Genre.tellMeGenre(num);
 		Assert.assertEquals(generoEsperado, generoReal);
 	}
@@ -33,7 +33,7 @@ class GenreTest {
 	public void testgetGeneroDiferente() {
 
 		int num = 3;
-		Genre generoEsperado = Genre.P;
+		Genre generoEsperado = Genre.Adventure;
 		Genre generoReal = Genre.tellMeGenre(num);
 		Assert.assertFalse(generoEsperado.equals(generoReal));
 	}
@@ -47,7 +47,7 @@ class GenreTest {
 		boolean excepcionEsperada = true;
 		try {
 			int num = 15;
-			Genre generoEsperado = Genre.RC;
+			Genre generoEsperado = Genre.Shooter;
 			Genre generoReal = Genre.tellMeGenre(num);
 			Assert.assertFalse(generoEsperado.equals(generoReal));
 		} catch (Exception e) {
